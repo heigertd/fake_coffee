@@ -23,12 +23,22 @@ export default function Hover(props) {
 
         border: '2px solid black',
         borderRadius: '10px',
-        boxShadow: `30px 30px ${props.color}`,
+        boxShadow: `30px 30px ${props.shadowColor}`,
+    }
+
+    var cover_styles = {
+        height: '0%',
+        width: '100%',
+        position: 'absolute',
+        bottom: '0',
+        left: '0',
+        right: '0',
+        backgroundColor: `${props.backgroundColor}`,
     }
     
     return (
         <div style = {main_styles} className = {hover === 'hover'? 'main hover' : 'main'}>
-            <div className = {hover === 'hover'? 'cover show' : 'cover'}></div>
+            <div style ={cover_styles} className = {hover === 'hover'? 'cover show' : 'cover'}></div>
             <div 
                 onMouseEnter={() => setHover('hover')}
                 onMouseLeave={() => setHover('')} 
