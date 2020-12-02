@@ -2,22 +2,39 @@ import React from 'react';
 import {useState} from 'react';
 import './hover.css'
 
-export default function Hover() {
+export default function Hover(props) {
     const [hover, setHover] = useState('')
     
-    function addHoverClass(){
-        setHover('hover');
-    }
+    var main_styles = {
+        height: '80vh',
+        width: '300px',
+        margin: '30px',
+        
+        backgroundImage:`url(${props.background})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
 
+        position: 'relative',
+
+        display: 'flex',
+        flexDirection: 'column-reverse',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+
+        border: '2px solid black',
+        borderRadius: '10px',
+        boxShadow: `30px 30px ${props.color}`,
+    }
+    
     return (
-        <div className = {hover === 'hover'? 'main hover' : 'main'}>
-            <img className = {hover === 'hover'? 'image show' : 'image'} src= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH6NUVHN0fDWPQJp5S_jj0D4hCOo0-9LfOeg&usqp=CAU'></img>
+        <div style = {main_styles} className = {hover === 'hover'? 'main hover' : 'main'}>
+            <div className = {hover === 'hover'? 'cover show' : 'cover'}></div>
             <div 
                 onMouseEnter={() => setHover('hover')}
                 onMouseLeave={() => setHover('')} 
                 className = 'text'
             >
-                <p>About</p>
+                <p>{props.text}</p>
             </div>
         </div>
     )
