@@ -1,12 +1,15 @@
 import React from 'react'
 import './home.css'
 import Hover from '../../components/Hover/Hover'
+import Header from '../../components/Header/Header'
 import Background from '../../images/coffee1.jpg'
 
 export default function Home() {
     return (
-        <div>
-            {/* <div>parrallax video/picture div</div> */}
+        <div className = 'main'>
+            {/* <div> */}
+                <Header />
+            {/* </div> */}
             <div className = 'hover-div'>
                 <Hover 
                     text = 'About' 
