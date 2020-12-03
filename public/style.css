@@ -1,0 +1,11 @@
+html{
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

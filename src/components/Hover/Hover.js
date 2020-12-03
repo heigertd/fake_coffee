@@ -24,6 +24,12 @@ export default function Hover(props) {
         border: '2px solid black',
         borderRadius: '10px',
         boxShadow: `30px 30px ${props.shadowColor}`,
+
+        // width: '100vw',
+        // height: '100vh',
+        // paddingTop: '20vh',
+        // position: 'relative',
+        // zIndex: '2', 
     }
 
     var cover_styles = {

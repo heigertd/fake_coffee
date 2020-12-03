@@ -2,14 +2,30 @@
     height: 90vh;
     width: 100vw;
 
-    background-image: url(../../images/header.jpg);
+    /* background-image: url(../../images/header.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
+    background-size: cover; */
 
     overflow-x: hidden;
 
-    /* position: relative; */
+
+
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+
+.header::before{
+    content:'';
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    background-image: url('../../images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    transform: translateZ(-1px)scale(2);
 }
 
 
