@@ -21,8 +21,8 @@
     top:0;
     left: 0;
     background-image: url('../../images/header.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: round;
+    background-size: auto;
     position: absolute;
     z-index: -1;
     transform: translateZ(-1px)scale(2);

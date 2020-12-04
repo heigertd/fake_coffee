@@ -7,7 +7,7 @@ export default function Hover(props) {
     
     var main_styles = {
         height: '80vh',
-        width: '300px',
+        width: '250px',
         margin: '30px',
         
         backgroundImage:`url(${props.background})`,

@@ -1,0 +1,12 @@
+.about{
+    height: 50vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.location, .times{
+    text-align: center;
+}
