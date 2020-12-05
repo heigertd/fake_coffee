@@ -1,11 +1,12 @@
-import Hover from './components/Hover/Hover'
+import About from './pages/About/About_page'
 import Home from './pages/Home/Home';
 import './App.css';
 
 function App() {
   return (
     <div className = 'app'>
-      <Home />
+      {/* <Home /> */}
+      <About />
     </div>
   );
 }
