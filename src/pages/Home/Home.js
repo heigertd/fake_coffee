@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div className = 'main'>
             {/* <div> */}
-                <Header />
+                <Header navbar = {false} header = 'Fake Coffee Shop' />
             {/* </div> */}
             <div className = 'hover-div'>
                 <div className = 'content'>

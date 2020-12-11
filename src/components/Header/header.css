@@ -1,17 +1,19 @@
 .header{
-    height: 90vh;
+    height: 60vh;
     width: 100vw;
-
-    /* background-image: url(../../images/header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-
     overflow-x: hidden;
-
-
-
     box-sizing: border-box;
     transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color:rgb(252, 248, 244);
+    font-size: xx-large; */
+}
+
+.typewriter{
+    color:rgb(252, 248, 244);
+    font-size: 60px;
 }
 
 .header::before{

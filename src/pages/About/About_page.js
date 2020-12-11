@@ -1,9 +1,20 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar';
+import Header from '../../components/Header/Header'
+import './about-page.css'
 export default function About_page() {
     return (
-        <div>
-            <Navbar />
+        <div className = 'about-page'>
+            <Header navbar = {true} />
+            <div className = 'about-div'>
+                <h1>About Us</h1>
+                <p>Half and half, et espresso single shot aroma cinnamon, medium pumpkin spice, latte milk, foam macchiato grounds cream ut, half and half, con panna, pumpkin spice so, id café au lait robusta shop coffee. Cortado whipped affogato instant, strong french press cortado sweet, ristretto extra  sweet java, frappuccino acerbic mug white robusta, and id robusta mug frappuccino cinnamon. Strong cup a, and filter espresso, variety, extraction aged filter, as milk, redeye wings crema, filter, affogato kopi-luwak ut french press coffee extra. Instant, acerbic cortado, single origin aromatic rich affogato mocha whipped french press seasonal mug dripper french press cappuccino. Viennese, caffeine mocha, brewed decaffeinated eu iced, pumpkin spice, crema, chicory that, frappuccino viennese, saucer trifecta extra  sweet latte. Barista, single origin, and rich, sugar, variety americano viennese seasonal doppio cinnamon, half and half cup galão wings coffee single origin flavour galão. Caffeine barista, organic breve french press robust, as a beans half and half cortado crema milk, at viennese white aged flavour eu aroma espresso mug crema.
+
+                Dark froth viennese organic, bar  to go kopi-luwak, et and java crema, beans sugar, so, single shot white, sit turkish, arabica affogato that doppio carajillo grinder. Irish instant skinny, affogato aroma mug con panna grinder cup, trifecta flavour half and half viennese froth, milk organic roast aromatic kopi-luwak. Carajillo cultivar, whipped cortado, milk fair trade sit, white fair trade flavour grounds con panna cup carajillo et java organic iced cream organic acerbic. Variety breve steamed half and half, mocha mug cultivar, spoon breve aroma aromatic ristretto macchiato. Chicory carajillo con panna, cream crema et filter, cinnamon latte filter blue mountain crema saucer body carajillo con panna cup trifecta sweet mocha macchiato coffee. Doppio iced, french press latte, single origin pumpkin spice trifecta spoon as whipped, that pumpkin spice turkish, coffee, dark whipped, froth iced robusta crema steamed in filter instant. Et arabica, in cortado filter mocha whipped breve irish galão, lungo barista, crema strong variety as carajillo.
+
+                Single shot qui java, that aged galão steamed cup chicory, plunger pot, steamed latte ristretto, et cappuccino half and half mug brewed. White arabica est, filter, arabica strong crema, viennese saucer blue mountain cream lungo, arabica, seasonal plunger pot, doppio cultivar strong con panna, sit sugar coffee carajillo single origin. Qui filter extraction roast cinnamon, mug ut foam bar  barista acerbic aromatic shop. As, skinny cinnamon, single origin black saucer con panna, est, strong caramelization whipped percolator medium grinder saucer caffeine, caramelization aged black galão cappuccino. Filter, carajillo, medium lungo shop breve chicory, so plunger pot id cinnamon doppio rich. Cortado frappuccino steamed doppio percolator, grounds, instant barista, sugar aromatic spoon cream steamed. Est, caffeine, robust java sit est percolator macchiato, in, instant turkish cream so extraction.
+
+                Cup milk galão milk extra  barista café au lait strong macchiato galão latte french press doppio cream, trifecta single shot iced frappuccino robusta. Extra  trifecta cup, ristretto coffee galão dripper organic, mocha sweet whipped, carajillo espresso seasonal caffeine blue mountain. Frappuccino iced sweet, brewed grounds mazagran dark arabica, crema, sweet as doppio grinder grounds iced black, that, mocha steamed spoon blue mountain foam. Fair trade beans, coffee, macchiato, blue mountain frappuccino cinnamon dripper breve espresso milk siphon medium carajillo cappuccino. Grounds galão sweet flavour plunger pot affogato cultivar organic, coffee, siphon, frappuccino eu plunger pot, robust, in acerbic, macchiato crema caramelization variety redeye cultivar single shot. White, extraction ristretto that, in, est extraction blue mountain french press est barista extraction to go, espresso instant crema café au lait grinder americano. Chicory seasonal and viennese americano grounds trifecta sweet, frappuccino to go fair trade, froth pumpkin spice, cultivar cream half and half, cream arabica froth eu aged cultivar lungo.</p>
+            </div>
         </div>
     )
 }

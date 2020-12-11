@@ -3,6 +3,7 @@ p{
 }
 
 .navbar{
+    align-self: start;
     width: 100vw;
     display: flex;
     justify-content: flex-end;
@@ -15,12 +16,14 @@ p{
     align-items: center;
     height: 50px;
     width: 25%;
-    background: blueviolet;
+
+    color:rgb(252, 248, 244);
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(1px);
+
 }
 
 .tab:hover{
-    /* border-radius: 0px 0px 5px 5px; */
-    /* height: 60px; */
-    box-shadow: 0px 0px 10px black;
-    z-index: 2;
+    backdrop-filter:blur(20px);
 }

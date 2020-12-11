@@ -1,11 +1,20 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 import './header.css'
 
-export default function Header() {
+export default function Header(props) {
+
+    let navbar = props.navbar
     
         return (
-            <div className = 'header'>
-                <h1 className = 'typewriter'></h1>
+            <div>
+                <div className = 'header'>
+                {navbar &&
+                    <Navbar />
+                }
+                    <h1 className = 'typewriter'>{props.header}</h1>
+                </div>
+                
             </div>
         )
     

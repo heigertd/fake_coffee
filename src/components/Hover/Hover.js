@@ -40,6 +40,7 @@ export default function Hover(props) {
         left: '0',
         right: '0',
         backgroundColor: `${props.backgroundColor}`,
+        backdropFilter:'blur(3px)',
     }
     
     return (
