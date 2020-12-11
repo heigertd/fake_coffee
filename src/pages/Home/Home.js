@@ -16,14 +16,16 @@ export default function Home() {
                     <Hover 
                         text = 'About' 
                         shadowColor = 'rgb(139, 60, 36, .404)' 
-                        backgroundColor = 'rgb(187, 148, 87, 0.404)' 
+                        backgroundColor = 'rgb(187, 148, 87, 0.404)'
+                        link = '/about'
                         background = {Background} 
                     />
                     <Hover 
                         text = 'Menu' 
                         color = 'rgb(114, 250, 121)'
                         shadowColor = 'rgb(247, 210, 151)' 
-                        backgroundColor = 'rgb(67, 40, 24, 0.604)' 
+                        backgroundColor = 'rgb(67, 40, 24, 0.604)'
+                        link = '/menu'
                         background = {Background}
                     />
                     <Hover 
@@ -31,6 +33,7 @@ export default function Home() {
                         color = 'yellow'
                         shadowColor = 'rgb(139, 60, 36, .404)' 
                         backgroundColor = 'rgb(187, 148, 87, 0.404)' 
+                        link = '/contact'
                         background = {Background}
                     />
                 </div>

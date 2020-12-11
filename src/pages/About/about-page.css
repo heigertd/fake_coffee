@@ -8,6 +8,7 @@
     box-sizing: border-box;
     text-align: center;
     background-color: rgb(252, 248, 244);
+    border-radius: 7px;
     width: 80vw;
     padding: 2vh;
     position: relative;

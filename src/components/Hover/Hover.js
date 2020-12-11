@@ -51,7 +51,7 @@ export default function Hover(props) {
                 onMouseLeave={() => setHover('')} 
                 className = 'text'
             >
-                <p>{props.text}</p>
+                <a href={props.link}>{props.text}</a>
             </div>
         </div>
     )

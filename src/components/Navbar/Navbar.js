@@ -5,16 +5,16 @@ export default function Navbar() {
     return (
         <div className = 'navbar'>
             <div className = 'tab'>
-                <p>About</p>
+                <a href = '/about'>About</a>
             </div>
             <div className = 'tab'>
-                <p>Home</p>
+                <a href = '/'>Home</a>
             </div>
             <div className = 'tab'>
-                <p>Menu</p>
+                <a href = '/menu'>Menu</a>
             </div>
             <div className = 'tab'>
-                <p>Contact</p>
+                <a href = '/contact'>Contact</a>
             </div>
         </div>
     )
