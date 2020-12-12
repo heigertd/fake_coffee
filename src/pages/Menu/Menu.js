@@ -7,18 +7,18 @@ export default function Menu() {
     return (
         <div className = 'menu-page'>
             <Header navbar = {true} />
-            <div className = 'menu-div'>
                 {menu.map((type) =>
-                    <table className = 'menu-table'>
-                        {type.map((item) => 
-                            <tr className = 'menu-row'>
-                                <td>{item.item}</td>
-                                <td>{item.price}</td>  
-                            </tr>
-                        )}
-                    </table>
+                    <div className = 'menu-div'>
+                        <table className = 'menu-table'>
+                            {type.map((item) => 
+                                <tr className = 'menu-row'>
+                                    <td>{item.item}</td>
+                                    <td>{item.price}</td>  
+                                </tr>
+                            )}
+                        </table>
+                    </div>
                 )}
-            </div>
         </div>
     )
 }

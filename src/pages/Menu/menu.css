@@ -7,12 +7,13 @@
 .menu-div{
     box-sizing: border-box;
     text-align: center;
-    background-color: rgb(252, 248, 244);
+    background-color: rgba(252, 248, 244, 0.00);
+    border: 100px solid rgba(252, 248, 244);
     border-radius: 7px;
-    width: 80vw;
-    padding: 2vh;
+    width: 100vw;
+    /* padding: 2vh; */
     position: relative;
-    z-index: 2;  
+    z-index: 2;
 }
 
 .menu-table{
@@ -36,12 +37,21 @@ td, th {
 }
 
 .menu-row:nth-child(1){
+    background-color: rgba(252, 248, 244);
     text-decoration: underline;
     font-weight: bold;
     font-size: x-large;
 }
   
-tr:nth-child(even) {
-    background-color:  rgb(255, 255, 255);
-    border-radius: 7px;
+.menu-row:nth-child(even) {
+    background-color:  rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(30px);
+    color:rgba(252, 248, 244);
+    /* border-radius: 7px; */
+}
+
+.menu-row:nth-child(odd) {
+    background-color: rgba(252, 248, 244);
+    /* backdrop-filter: blur(30px); */
+    /* border-radius: 7px; */
 }

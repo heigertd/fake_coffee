@@ -24,6 +24,30 @@ export const menu = [
             item: 'tea',
             price: '1.50'
         },
+        {
+            item: 'Drink',
+            price: 'Price'
+        },
+        {
+            item: 'coffee',
+            price: '2.00'
+        },
+        {
+            item: 'fancy coffee',
+            price: '4.00'
+        },
+        {
+            item: 'cold coffee',
+            price: '2.50'
+        },
+        {
+            item: 'hot chocolate',
+            price: '1.00'
+        },
+        {
+            item: 'tea',
+            price: '1.50'
+        },
     ],
     [
         {
