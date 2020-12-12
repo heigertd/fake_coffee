@@ -45,7 +45,7 @@ export default function Hover(props) {
     
     return (
         <div style = {main_styles} className = {hover === 'hover'? 'main hover' : 'main'}>
-            <div style ={cover_styles} className = {hover === 'hover'? 'cover show' : 'cover'}></div>
+            <div style ={cover_styles} className = {hover === 'hover'? 'cover show' : 'cover hide'}></div>
             <div 
                 onMouseEnter={() => setHover('hover')}
                 onMouseLeave={() => setHover('')} 

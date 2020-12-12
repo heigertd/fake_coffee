@@ -56,9 +56,23 @@
     /* height: 100%; */
 }
 
+.hide{
+    animation-name: shrink;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    /* height: 100%; */
+}
+
 @keyframes grow {
     from {height: 0;}
     to {height: 100%;}
+    /* from {margin-top: 300%;}
+    to {margin-top: 0%;} */
+}
+
+@keyframes shrink {
+    from {height: 100%;}
+    to {height: 0;}
     /* from {margin-top: 300%;}
     to {margin-top: 0%;} */
 }

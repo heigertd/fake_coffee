@@ -35,7 +35,7 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child(1){
+.menu-row:nth-child(1){
     text-decoration: underline;
     font-weight: bold;
     font-size: x-large;
