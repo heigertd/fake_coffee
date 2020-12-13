@@ -5,10 +5,10 @@ export default function Navbar() {
     return (
         <div className = 'navbar'>
             <div className = 'tab'>
-                <a href = '/about'>About</a>
+                <a href = '/'>Home</a>
             </div>
             <div className = 'tab'>
-                <a href = '/'>Home</a>
+                <a href = '/about'>About</a>
             </div>
             <div className = 'tab'>
                 <a href = '/menu'>Menu</a>

@@ -1,5 +1,5 @@
 .about{
-    height: 50vh;
+    /* height: 50vh; */
     width: 100vw;
 
     display: flex;
@@ -14,3 +14,9 @@
 .location, .times{
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .about{
+        flex-direction: column;    
+    }
+  }
