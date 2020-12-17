@@ -5,7 +5,7 @@ import './contact.css';
 export default function Contact() {
     return (
         <div className = 'contact-page'>
-            <Header navbar = {true} />
+            <Header navbar = {true} header = 'Contact' />
             <div className = 'contact-div'>
                 <form className = 'form-div'>
                     {/* <div className = 'name-form'> */}

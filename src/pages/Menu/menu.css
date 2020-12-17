@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .menu-page{
     display: flex;
     flex-direction: column;
@@ -42,6 +44,7 @@ td, th {
     text-decoration: underline;
     font-weight: bold;
     font-size: x-large;
+    font-family: 'Courgette', cursive;
 }
   
 .menu-row:nth-child(even) {

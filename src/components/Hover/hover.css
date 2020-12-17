@@ -19,6 +19,8 @@
     box-shadow: 30px 30px rgba(250, 128, 114, 0.575);
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .text{
     position: absolute;
     top: 50%;
@@ -30,7 +32,8 @@
 
     border: 2px solid black;
 
-    text-align: center; 
+    text-align: center;
+    font-family: 'Courgette', cursive;
 }
 
 .text:hover{

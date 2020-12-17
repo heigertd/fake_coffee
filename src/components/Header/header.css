@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .header{
     height: 60vh;
     width: 100vw;
@@ -5,10 +8,22 @@
     box-sizing: border-box;
     transform-style: preserve-3d;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     /* color:rgb(252, 248, 244);
     font-size: xx-large; */
+}
+
+.header-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Courgette', cursive;
 }
 
 .typewriter{

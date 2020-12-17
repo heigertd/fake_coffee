@@ -6,7 +6,7 @@ import './menu.css'
 export default function Menu() {
     return (
         <div className = 'menu-page'>
-            <Header navbar = {true} />
+            <Header navbar = {true} header = 'Menu'/>
                 {menu.map((type) =>
                     <div className = 'menu-div'>
                         <table className = 'menu-table'>
