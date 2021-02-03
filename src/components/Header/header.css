@@ -29,6 +29,7 @@
 .typewriter{
     color:rgb(252, 248, 244);
     font-size: 60px;
+    /* text-align: center; */
 }
 
 .header::before{
@@ -37,7 +38,7 @@
     height: 200vh;
     top:0;
     left: 0;
-    background-image: url('../../images/header.jpg');
+    background-image: url('../../images/lightbulb.jpg');
     background-repeat: round;
     background-size: auto;
     position: absolute;

@@ -3,8 +3,6 @@ input, textarea{
     margin: 3px;
 }
 
-
-
 .contact-page{
     display: flex;
     flex-direction: column;
@@ -38,10 +36,6 @@ input, textarea{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.submit-button{
-    /* width: 10%; */
 }
 
 .social-media{

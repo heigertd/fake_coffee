@@ -2,11 +2,14 @@ import React from 'react'
 import Header from '../../components/Header/Header';
 import './contact.css';
 
+//TODO: Blurb before contact info 'feel free to send us an email blah blah blah'......
+
 export default function Contact() {
     return (
         <div className = 'contact-page'>
             <Header navbar = {true} header = 'Contact' />
             <div className = 'contact-div'>
+                <h3>Feel free to send us an email with any questions or concerns! We appreciate your feedback!</h3>
                 <form className = 'form-div'>
                     {/* <div className = 'name-form'> */}
                         <input type="text" id="fname" name="fname" placeholder = 'Name'></input>

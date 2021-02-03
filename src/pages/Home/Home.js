@@ -7,6 +7,12 @@ import Background from '../../images/coffee1.jpg'
 import Background2 from '../../images/hover2.jpg'
 import Background3 from '../../images/hover3.jpg'
 
+//TODO: More pictures of food customers etc.
+//      button sends to location not just link in navbar
+
+//      summaries
+
+
 export default function Home() {
     return (
         <div className = 'main'>
