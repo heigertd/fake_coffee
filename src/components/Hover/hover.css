@@ -86,11 +86,11 @@
     to {margin-top: 0%;} */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .main{
-        margin: 0;
+        margin-left: 0;
         width: 99vw;
-        height: 33vh;
+        height: 50vh;
         box-shadow: 30px 30px white;
     }
   }
