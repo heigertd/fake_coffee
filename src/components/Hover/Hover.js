@@ -6,23 +6,23 @@ export default function Hover(props) {
     const [hover, setHover] = useState('')
     
     var main_styles = {
-        height: '80vh',
-        width: '250px',
-        margin: '30px',
+        // height: '80vh',
+        // width: '250px',
+        // margin: '30px',
         
         backgroundImage:`url(${props.background})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
+        // backgroundRepeat: 'no-repeat',
+        // backgroundSize: 'cover',
 
-        position: 'relative',
+        // position: 'relative',
 
-        display: 'flex',
-        flexDirection: 'column-reverse',
-        justifyContent: 'space-around',
-        alignItems: 'center',
+        // display: 'flex',
+        // flexDirection: 'column-reverse',
+        // justifyContent: 'space-around',
+        // alignItems: 'center',
 
-        border: '2px solid black',
-        borderRadius: '10px',
+        // border: '2px solid black',
+        // borderRadius: '10px',
         boxShadow: `30px 30px ${props.shadowColor}`,
 
         // width: '100vw',
@@ -44,7 +44,7 @@ export default function Hover(props) {
     }
     
     return (
-        <div style = {main_styles} className = {hover === 'hover'? 'main hover' : 'main'}>
+        <div style = {main_styles} className = 'main'>
             <div style ={cover_styles} className = {hover === 'hover'? 'cover show' : 'cover hide'}></div>
             <div 
                 onMouseEnter={() => setHover('hover')}

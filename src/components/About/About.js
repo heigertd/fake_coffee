@@ -10,7 +10,7 @@ export default function About() {
             </div>
             <div className = 'times'>
                 <h2>Hours</h2>
-                <table>
+                <table className = 'times-table'>
                     <tr>
                         <td>Monday</td>
                         <td>6:00am - 6:00pm</td>

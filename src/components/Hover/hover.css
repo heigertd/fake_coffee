@@ -1,9 +1,10 @@
-/* .main{
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.main{
     height: 80vh;
-    width: 300px;
+    width: 250px;
     margin: 30px;
     
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH6NUVHN0fDWPQJp5S_jj0D4hCOo0-9LfOeg&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -16,10 +17,10 @@
 
     border: 2px solid black;
     border-radius: 10px;
-    box-shadow: 30px 30px rgba(250, 128, 114, 0.575);
-} */
 
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+}
+
+
 
 .text{
     position: absolute;
@@ -87,7 +88,9 @@
 
 @media only screen and (max-width: 600px) {
     .main{
-        /* border: none; */
-        width: 100vw;  
+        margin: 0;
+        width: 99vw;
+        height: 33vh;
+        box-shadow: 30px 30px white;
     }
   }

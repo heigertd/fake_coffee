@@ -15,10 +15,8 @@ import Background3 from '../../images/hover3.jpg'
 
 export default function Home() {
     return (
-        <div className = 'main'>
-            {/* <div> */}
-                <Header navbar = {false} header = 'Fake Coffee Shop' />
-            {/* </div> */}
+        <div className = 'home-main'>
+            <Header navbar = {false} header = 'Fake Coffee Shop' />
             <div className = 'hover-div'>
                 <div className = 'content'>
                     <Hover 
