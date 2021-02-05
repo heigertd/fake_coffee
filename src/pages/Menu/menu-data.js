@@ -5,47 +5,43 @@ export const menu = [
             price: 'Price'
         },
         {
-            item: 'coffee',
+            item: 'Coffee',
             price: '2.00'
         },
         {
-            item: 'fancy coffee',
+            item: 'Fancy Coffee',
             price: '4.00'
         },
         {
-            item: 'cold coffee',
+            item: 'Cold Coffee',
             price: '2.50'
         },
         {
-            item: 'hot chocolate',
+            item: 'Hot Chocolate',
             price: '1.00'
         },
         {
-            item: 'tea',
+            item: 'Tea',
             price: '1.50'
         },
         {
-            item: 'Drink',
-            price: 'Price'
-        },
-        {
-            item: 'coffee',
+            item: 'Sugary Coffee',
             price: '2.00'
         },
         {
-            item: 'fancy coffee',
+            item: 'Fancier Coffee',
             price: '4.00'
         },
         {
-            item: 'cold coffee',
+            item: 'Colder Coffee',
             price: '2.50'
         },
         {
-            item: 'hot chocolate',
+            item: 'Hotter Chocolate',
             price: '1.00'
         },
         {
-            item: 'tea',
+            item: 'Sweet Tea',
             price: '1.50'
         },
     ],
@@ -55,23 +51,23 @@ export const menu = [
             price: 'Price'
         },
         {
-            item: 'muffin',
+            item: 'Muffin',
             price: '2.00'
         },
         {
-            item: 'fancy cookie',
+            item: 'Fancy cookie',
             price: '4.00'
         },
         {
-            item: 'sandwich',
+            item: 'Sandwich',
             price: '2.50'
         },
         {
-            item: 'bagel',
+            item: 'Bagel',
             price: '1.00'
         },
         {
-            item: 'cupcake',
+            item: 'Cupcake',
             price: '1.50'
         }, 
     ]
