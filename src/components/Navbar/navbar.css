@@ -19,9 +19,11 @@ p{
     width: 25%;
 
     color:rgb(252, 248, 244);
+    border: 1px inset rgba(105, 39, 39, 0);
 
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter:blur(1px);
+
 
     font-family: 'Courgette', cursive;
 
@@ -29,6 +31,7 @@ p{
 
 .tab:hover{
     backdrop-filter:blur(20px);
+    border: 1px inset white;
 }
 
 a{

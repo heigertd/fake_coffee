@@ -89,7 +89,21 @@ td, th {
 
 @media only screen and (max-width: 600px) {
     .menu-div{
-        /* border: none; */
         width: 100vw;  
+    }
+
+    .ind-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .ind-menu img{
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .menu-table{
+        width: 100%;
     }
   }
