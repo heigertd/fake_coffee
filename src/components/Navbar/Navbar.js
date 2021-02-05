@@ -4,9 +4,9 @@ import './navbar.css'
 export default function Navbar() {
     return (
         <div className = 'navbar'>
-            <div className = 'tab'>
-                <a href = '/'>Home</a>
-            </div>
+            <button className = 'tab'>
+            <a href = '/'> Home</a>
+            </button>
             <div className = 'tab'>
                 <a href = '/about'>About</a>
             </div>
