@@ -9,6 +9,17 @@ input, textarea{
 
     align-items: center;
 }
+
+.background{
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    background-color:rgba(252, 248, 244, 0.164);
+
+    z-index: 1000;
+}
+
 .contact-div{
     display: flex;
     flex-direction: column;
