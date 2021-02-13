@@ -20,9 +20,9 @@ export default function Contact() {
                         <input className = 'submit-button' type="reset" value="Submit"></input>
                     </form>
                     <div className = 'social-media'>
-                        <img src="https://img.icons8.com/fluent-systems-regular/56/000000/instagram-new.png"/>
-                        <img src="https://img.icons8.com/fluent-systems-regular/56/000000/facebook-new.png"/>
-                        <img src="https://img.icons8.com/android/56/000000/twitter.png"/>
+                        <img alt = 'instagram' src="https://img.icons8.com/fluent-systems-regular/56/000000/instagram-new.png"/>
+                        <img alt = 'facebook' src="https://img.icons8.com/fluent-systems-regular/56/000000/facebook-new.png"/>
+                        <img alt = 'twitter' src="https://img.icons8.com/android/56/000000/twitter.png"/>
                     </div>
                 </div>
             

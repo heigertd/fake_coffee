@@ -29,7 +29,7 @@ export default function Menu() {
             
             <div className = 'menu-div'>
                 <div className = 'ind-menu'>
-                    <img src = {coffee}></img>
+                    <img alt = 'coffee' src = {coffee}></img>
                     <table className = 'menu-table'>
                         {menu[0].map((item) => 
                             <tr className = 'menu-row'>
@@ -48,7 +48,7 @@ export default function Menu() {
                             </tr>
                         )}
                     </table>
-                    <img src = {sandwich}></img>
+                    <img alt = 'sandwich' src = {sandwich}></img>
                 </div>
             </div>
                 
